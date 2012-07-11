@@ -1,7 +1,8 @@
 spec = Gem::Specification.new do |s|
-  s.name = 'cxxprojec_console'
+  s.name = 'cxxproject_console'
   s.description = 'irb-console for cxxproject'
-  s.summary = ''
+  s.summary = 'interpretes all project definitions and dumps you into an interactive ruby console'
+  s.homepage = 'http://marcmo.github.com/cxxproject/'
   s.version = '0.1.0'
   s.author = 'christian koestlin'
   s.email = 'christian.koestlin@gmail.com'
