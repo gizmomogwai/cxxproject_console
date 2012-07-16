@@ -7,7 +7,7 @@ spec = Gem::Specification.new do |s|
   s.author = 'christian koestlin'
   s.email = 'christian.koestlin@gmail.com'
   s.platform = Gem::Platform::RUBY
-  s.files = FileList['lib/**/*.rb'].to_a
+  s.files = `git ls-files`.split($\)
   s.require_path = 'lib'
   s.add_dependency 'cxxprojectrubydsl'
 
